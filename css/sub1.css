@@ -375,7 +375,6 @@
     width: 1350px;
     height: 100%;
     margin: 0 auto;
-
 }
 
 #footer_in .group {
@@ -384,21 +383,44 @@
 }
 
 #footer_in .brand {
-    width: 800px;
+    width: 500px;
     height: 70px;
-    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+#footer_in .brand ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#footer_in .brand ul li a{
+    font-size: 30px;
+    color: #ccc;
 }
 
 #footer_in .sns {
-    width: 250px;
+    width: 200px;
     height: 70px;
     margin-left: auto;
-    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+#footer_in .sns ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+#footer_in .sns ul li a{
+    font-size: 40px;
+    color: #ccc;
 }
 
 #footer_in .info_mn {
     width: 1350px;
     height: 50px;
+    margin-top: 30px;
 }
 
 #footer_in .info_mn ul {
