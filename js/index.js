@@ -1,12 +1,33 @@
 $(document).ready(function () {
     // PRODUCT
+    var mov = 0;
     
+    $('#right').click(function(){
+        mov = mov + 1;
+        if(mov == 4){
+            mov = 0;
+        }
+        move1(mov);
+    });
+    $('#left').click(function(){
+        mov = mov - 1;
+        if(mov == -1){
+            mov = 3;
+        }
+        move1(mov);
+    });
+
+    function move1(n){
+        var pos = (-255) * n + 'px';
+        $('.p_pic').animate({left:pos}, 500);
+    }
     
+
+
     // AD
     $('.ad_con li').eq(0).addClass('on');
     var current = 0;
     var setIntervalId;
-    var idx = 0;
 
     // AD:CON
     $('.ad_con li').click(function(e){
