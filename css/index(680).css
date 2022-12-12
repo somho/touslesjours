@@ -1,10 +1,10 @@
-@media screen and (max-width:680px){
+@media screen and (max-width:680px) {
     #header {
         width: 100%;
         height: 170px;
         background-color: rgb(12, 70, 48);
     }
-    
+
     #header_in {
         margin: 0 auto;
         width: 100%;
@@ -14,44 +14,44 @@
         flex-direction: column;
         position: relative;
     }
-    
+
     #header_in .logo {
         width: 275px;
         height: 70px;
         margin: 40px 0 0 40px;
     }
-    
+
     #header_in .nav {
         width: 100%;
         height: 90px;
     }
-    
+
     #header_in .nav_mn {
         display: flex;
         justify-content: space-around;
     }
-    
+
     #header_in .nav_mn li {
         margin-top: 30px;
     }
-    
+
     #header_in .nav_mn li a {
         font-size: 17px;
         font-weight: 700;
         color: #fff;
     }
-    
+
     #header_in .nav_mn li a:hover {
         color: orange;
     }
-    
+
     #header_in .group {
         width: 230px;
         height: 30px;
         position: absolute;
         left: 430px;
     }
-    
+
     #header_in .group .info_mn {
         width: 230px;
         height: 30px;
@@ -59,25 +59,25 @@
         float: right;
         margin: 30px 0 10px 0;
     }
-    
+
     #header_in .group .info_mn ul {
         display: flex;
         justify-content: space-between;
     }
-    
+
     #header_in .group .info_mn ul li {
         margin-top: 5px;
     }
-    
+
     #header_in .group .info_mn ul li a {
         font-size: 15px;
         color: #fff;
     }
-    
+
     #header_in .group .info_mn ul li a:hover {
         color: orange;
     }
-    
+
     #header_in .group .search {
         width: 230px;
         height: 30px;
@@ -86,14 +86,14 @@
         align-items: center;
         justify-content: space-between;
     }
-    
+
     #header_in .search .box {
         width: 185px;
         height: 30px;
         background-color: #fff;
         border-radius: 10px;
     }
-    
+
     #header_in .search .button {
         width: 30px;
         height: 30px;
@@ -101,9 +101,9 @@
         margin-left: 5px;
         border-radius: 50%;
     }
-    
+
     #header_in .search .button #sbtn {
-        margin: 10px 5px 5px 6px;
+        margin: 15px 5px 5px 6px;
     }
 
     /* MAIN */
@@ -172,7 +172,7 @@
     /* CONTENTS */
     #contents {
         width: 100%;
-        height: 2300px;
+        height: 2550px;
         background-color: rgb(245, 238, 230);
     }
 
@@ -181,7 +181,7 @@
         height: 600px;
         margin: 0 auto;
     }
-    
+
     #con1 .con1_in {
         width: 100%;
         height: 100%;
@@ -189,7 +189,7 @@
         justify-content: space-between;
         align-items: center;
     }
-    
+
     #con1 .con1_in .product {
         width: 100%;
         height: 480px;
@@ -198,29 +198,29 @@
         background-color: #fff;
         position: relative;
     }
-    
+
     #con1 .con1_in .product #left {
         float: left;
         margin: 220px 0 0 15px;
         color: rgb(12, 70, 48);
         cursor: pointer;
     }
-    
+
     #con1 .con1_in .product #left:hover {
         color: orange;
     }
-    
+
     #con1 .con1_in .product #right {
         float: right;
         margin: 220px 15px 0 0;
         color: rgb(12, 70, 48);
         cursor: pointer;
     }
-    
+
     #con1 .con1_in .product #right:hover {
         color: orange;
     }
-    
+
     #con1 .con1_in .product .banner {
         width: 170px;
         height: 90px;
@@ -228,7 +228,7 @@
         left: -5px;
         position: absolute;
     }
-    
+
     #con1 .con1_in .product .p_box {
         width: 450px;
         height: 400px;
@@ -237,7 +237,7 @@
         position: relative;
         overflow: hidden;
     }
-    
+
     #con1 .con1_in .product .p_pic {
         width: 1495px;
         display: flex;
@@ -246,13 +246,13 @@
         top: 40px;
         left: 0;
     }
-    
-    #con1 .con1_in .product .p_pic h3{
+
+    #con1 .con1_in .product .p_pic h3 {
         font-size: 15px;
         text-align: center;
         margin-top: 20px;
     }
-    
+
     #con1 .con1_in .product .p_pic img {
         width: 220px;
         height: 220px;
@@ -280,7 +280,7 @@
         color: rgb(12, 70, 48);
         margin-left: 20px;
     }
-    
+
     #con2 .con2_in {
         width: 100%;
         height: 850px;
@@ -288,8 +288,7 @@
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    
-    
+
     #con2 .con2_in .box1 {
         width: 300px;
         height: 350px;
@@ -300,7 +299,7 @@
         flex-direction: column;
         cursor: pointer;
     }
-    
+
     #con2 .con2_in .box2 {
         width: 300px;
         height: 350px;
@@ -322,14 +321,71 @@
         flex-direction: column;
         cursor: pointer;
     }
-    
-    #con2 .con2_in .box3 .holder3 {
-        width: 100%;
-        height: 100%;
-        background: url(../images/box3.jpeg) no-repeat;
-        background-size: cover;
+
+    #con2 .con2_in .ad_m {
+        display: block;
+        width: 300px;
+        height: 350px;
+        border-radius: 40px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    #con2 .con2_in .ad_m .ad_con_m {
+        width: 100px;
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+        left: 95px;
+        margin-top: 320px;
         position: absolute;
-        z-index: 1;
+        z-index: 2;
+    }
+
+    #con2 .con2_in .ad_m .ad_con_m li {
+        width: 15px;
+        height: 15px;
+        background-color: rgb(116, 111, 111);
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    #con2 .con2_in .ad_m .ad_con_m li.on {
+        background-color: orange;
+    }
+
+    #con2 .con2_in .ad_m .ad_pic_m {
+        width: 300px;
+        height: 350px;
+        overflow: hidden;
+        display: flex;
+        position: relative;
+    }
+
+    #con2 .con2_in .ad_m .ad_pic_m li {
+        position: absolute;
+    }
+
+    #con2 .con2_in .ad_m .ad_pic_m li img {
+        width: 300px;
+        height: 350px;
+        border-radius: 40px;
+    }
+
+    #con2 .con2_in .ad_m .ad_pic_m li:nth-child(1) {
+        left: 0%;
+    }
+
+    #con2 .con2_in .ad_m .ad_pic_m li:nth-child(2) {
+        left: 100%;
+    }
+
+    #con2 .con2_in .ad_m .ad_pic_m li:nth-child(3) {
+        left: 200%;
+    }
+
+    #con2 .con2_in .ad_m .ad_pic_m li:nth-child(4) {
+        left: 300%;
     }
 
     #c_line {
@@ -340,4 +396,114 @@
         margin-bottom: 40px;
         background-color: rgb(12, 70, 48);
     }
+
+    #con3 {
+        width: 100%;
+        height: 500px;
+        margin: 0 auto;
+    }
+
+    #con3 h3 {
+        font-size: 40px;
+        margin-bottom: 10px;
+        margin-left: 15px;
+        color: rgb(12, 70, 48);
+    }
+
+    #con3 .con3_in {
+        width: 100%;
+        height: 440px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    #con3 .con3_in .box1 {
+        width: 95%;
+        height: 400px;
+        background-color: #fff;
+        border: 4px solid rgb(12, 70, 48);
+        position: relative;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    #con3 .con3_in .box2 {
+        width: 45%;
+        height: 400px;
+        background-color: bisque;
+        background: url(../images/sup1.jpg) no-repeat;
+        background-size: cover;
+        margin-top: 25px;
+    }
+
+    #con3 .con3_in .box3 {
+        width: 45%;
+        height: 400px;
+        background-color: bisque;
+        background: url(../images/sup2.jpg) no-repeat;
+        background-size: cover;
+        margin-top: 25px;
+    }
+
+    /* FOOTER */
+    #footer {
+        width: 100%;
+        height: 250px;
+        background-color: rgb(46, 47, 46);
+    }
+
+    #footer_in {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    #footer_in .brand {
+        width: 50%;
+        height: 70px;
+        margin-top: 10px;
+    }
+
+    #footer_in .brand ul {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    #footer_in .brand ul li a {
+        font-size: 20px;
+        color: #ccc;
+    }
+
+    #footer_in .sns {
+        width: 30%;
+        height: 70px;
+        margin-left: auto;
+        margin-top: 10px;
+    }
+
+    #footer_in .sns ul {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+
+    #footer_in .sns ul li a {
+        font-size: 30px;
+        color: #ccc;
+    }
+
+    #footer_in .info_mn {
+        width: 100%;
+        height: 50px;
+        margin-top: 30px;
+    }
+
+    #footer_in .info_mn ul li {
+        margin-top: 15px;
+        font-size: 11px;
+    }
+
 }

@@ -132,7 +132,7 @@
 /* CONTENTS */
 #contents {
     width: 100%;
-    height: 800px;
+    height: 850px;
     background-color: rgb(246, 242, 231);
 }
 
@@ -388,14 +388,14 @@
     margin-top: 10px;
 }
 
-#footer_in .brand ul{
+#footer_in .brand ul {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
 
-#footer_in .brand ul li a{
-    font-size: 30px;
+#footer_in .brand ul li a {
+    font-size: 25px;
     color: #ccc;
 }
 
@@ -406,13 +406,13 @@
     margin-top: 10px;
 }
 
-#footer_in .sns ul{
+#footer_in .sns ul {
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
 }
 
-#footer_in .sns ul li a{
+#footer_in .sns ul li a {
     font-size: 40px;
     color: #ccc;
 }

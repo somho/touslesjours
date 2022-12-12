@@ -104,7 +104,7 @@
 }
 
 #header_in .search .button #sbtn {
-    margin: 15px 5px 5px 6px;
+    margin: 15px 5px 5px 7px;
 }
 
 /* MAIN */
@@ -156,14 +156,20 @@
     float: right;
     width: 60%;
     height: 710px;
-    background-color: chocolate;
     border-radius: 35px 0 0 35px;
     box-shadow: -5px 3px 5px #ccc;
     overflow: hidden;
+    transition: all 2s;
+    position: relative;
+}
+
+#main .img_box .slide {
+    z-index: 1;
 }
 
 #main .img_box img {
-    background-size: cover;
+    width: 1150px;
+    position: absolute;
 }
 
 /* CONTENTS */
@@ -244,7 +250,7 @@
     left: 0;
 }
 
-#con1 .con1_in .product .p_pic h3{
+#con1 .con1_in .product .p_pic h3 {
     font-size: 20px;
     text-align: center;
     margin-top: 20px;
@@ -447,6 +453,45 @@
     color: #fff;
 }
 
+#con2 .con2_in .box3 .box3_s {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 370px;
+    left: 95px;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#con2 .con2_in .box3 .box3_s .s_box {
+    width: 150px;
+    height: 30px;
+}
+
+#con2 .con2_in .box3 .box3_s .s_btn {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(12, 70, 48);
+    text-align: center;
+}
+
+#con2 .con2_in .box3 .box3_s .s_btn:hover {
+    background-color: coral;
+}
+
+#sbtn2 {
+    font-size: 15px;
+    color: #fff;
+    margin-top: 18px;
+}
+
+
+
+#con2 .con2_in .ad_m {
+    display: none;
+}
 
 #c_line {
     width: 1350px;
@@ -525,6 +570,7 @@
     background-color: bisque;
     background: url(../images/sup1.jpg) no-repeat;
     background-size: cover;
+    cursor: pointer;
 }
 
 #con3 .con3_in .box3 {
@@ -533,6 +579,7 @@
     background-color: bisque;
     background: url(../images/sup2.jpg) no-repeat;
     background-size: cover;
+    cursor: pointer;
 }
 
 /* FOOTER */
@@ -559,14 +606,14 @@
     margin-top: 10px;
 }
 
-#footer_in .brand ul{
+#footer_in .brand ul {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
 
-#footer_in .brand ul li a{
-    font-size: 30px;
+#footer_in .brand ul li a {
+    font-size: 25px;
     color: #ccc;
 }
 
@@ -577,17 +624,16 @@
     margin-top: 10px;
 }
 
-#footer_in .sns ul{
+#footer_in .sns ul {
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
 }
 
-#footer_in .sns ul li a{
+#footer_in .sns ul li a {
     font-size: 40px;
     color: #ccc;
 }
-
 
 #footer_in .info_mn {
     width: 1350px;
